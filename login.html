@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f6f5f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Montserrat', sans-serif;
+            height: 100vh;
+            margin: -20px 0 50px;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+                0 10px 10px rgba(0, 0, 0, 0.22);
+            width: 550px;
+            max-width: 100%;
+            min-height: 550px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .tab-buttons {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            background-color: #f79a21;
+        }
+
+        .tab-buttons button {
+            background: none;
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .tab-buttons button.active {
+            background-color: #f3690d;
+        }
+
+        .form-container {
+            display: none;
+            padding: 2rem;
+            text-align: center;
+            transition: opacity 0.3s ease;
+        }
+
+        .form-container.active {
+            display: block;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .form-container h1 {
+            font-size: 2rem;
+        }
+
+        .form-container input {
+            background-color: #eee;
+            border: none;
+            padding: 12px 15px;
+            margin: 8px 0;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            border-radius: 20px;
+            border: 1px solid #f79a21;
+            background-color: #f79a21;
+            color: #FFFFFF;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 12px 45px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+
+        .social-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .social-container a {
+            border: 1px solid #DDDDDD;
+            color: #f79a21;
+            text-decoration: none;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 5px;
+            height: 40px;
+            width: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tab-buttons">
+            <button class="active" id="login-tab">Login</button>
+            <button id="register-tab">Register</button>
+        </div>
+        <div class="form-container active" id="login-container">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <a href="#">Forgot your password?</a>
+                <button><a href="index.html" class="text-white text-decoration-none">Login</a></button>
+            </form>
+        </div>
+        <div class="form-container" id="register-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button><a href="index.html" class="text-white text-decoration-none">Register</a></button>
+            </form>
+        </div>
+        <!-- <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h1>Welcome Back!</h1>
+                    <p>To stay connected, please login with your personal info.</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        const loginTab = document.getElementById('login-tab');
+        const registerTab = document.getElementById('register-tab');
+        const loginContainer = document.getElementById('login-container');
+        const registerContainer = document.getElementById('register-container');
+
+        loginTab.addEventListener('click', () => {
+            loginTab.classList.add('active');
+            registerTab.classList.remove('active');
+            loginContainer.classList.add('active');
+            registerContainer.classList.remove('active');
+        });
+
+        registerTab.addEventListener('click', () => {
+            registerTab.classList.add('active');
+            loginTab.classList.remove('active');
+            registerContainer.classList.add('active');
+            loginContainer.classList.remove('active');
+        });
+    </script>
+</body>
+
+</html>

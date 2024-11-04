@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>Club Ninety</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <script src="https://kit.fontawesome.com/e09dd379d2.js" crossorigin="anonymous"></script>
+  <!--
+
+
+
+-->
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <section class="position-relative">
+    <header class="header-area position-fixed py-2 w-100">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="d-xl-none main-nav">
+            <!-- Menu Trigger Button (Left) -->
+            <a class="menu-trigger border-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <span>Menu</span>
+            </a>
+          </div>
+          <div class=" text-center">
+            <!-- Logo (Center) -->
+            <a href="index.html" class="logo d-xl-none">
+              <img src="assets/images/logo.png" class="img-fluid" alt="Logo" style="max-width: 60px;">
+            </a>
+          </div>
+          <div class=" d-xl-none text-end ">
+            <!-- Become a Member Button (Right) -->
+            <ul class="mobile-btn">
+              <li class="member-btn"><a href="become-member.html"><i class="fa fa-user"></i> Become a Member</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row d-none d-xl-block">
+          <div class="col-12">
+            <nav class="main-nav align-items-center">
+              <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" class="img-fluid" alt="Logo" style="max-width: 80px;">
+              </a>
+              <ul class="nav align-items-baseline">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li class="nav-item custom-dropdown">
+                  <a>About Us <i class="fa fa-chevron-down"></i></a>
+                  <ul class="dropdown-content">
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="club-president-massage.html">Club President Massage</a></li>
+                    <li><a href="club-history.html">Club history</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="mission.html">Our Mission</a></li>
+                    <li><a href="our-vission.html">Our Vission</a></li>
+                  </ul>
+                </li>
+                <li><a href="upcoming-events.html">Upcoming Events</a></li>
+                <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                <li><a href="news-events.html">News & Events</a></li>
+                <li><a href="membership-policies.html">Membership Policy</a></li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="member-btn"><a href="become-member.html"><i class="fa fa-user text-white"></i> Become a Member</a></li>
+                <li class="member-btn"><a class="pe-3" href="login.html"><i class="fa fa-user-alt text-white"></i> Login</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <a href="index.html" class="logo" style="width: 80px;">
+          <img src="assets/images/logo.png" class="img-fluid" alt="Logo">
+        </a>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="mobile-menu gap-3">
+          <li><a href="index.html">Home</a></li>
+          <li class="nav-item custom-dropdown">
+            <a>About Us <i class="fa fa-chevron-down"></i></a>
+            <ul class="dropdown-content">
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="club-president-massage.html">Club President Massage</a></li>
+              <li><a href="club-history.html">Club history</a></li>
+              <li><a href="members.html">Members</a></li>
+              <li><a href="mission.html">Our Mission</a></li>
+              <li><a href="our-vission.html">Our Vission</a></li>
+            </ul>
+          </li>
+          <li><a href="upcoming-events.html">Upcoming Events</a></li>
+          <li><a href="photo-gallery.html">Photo Gallery</a></li>
+          <li><a href="news-events.html">News & Events</a></li>
+          <li><a href="membership-policies.html">Membership Policy</a></li>
+          <li><a href="faq.html">Faq</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li class="member-btn" style="width: 150px;"><a class="pe-3" href="login.html"><i class="fa fa-user-alt"></i> <span class="ps-3">Login</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </section> 
+  <!-- ***** Header Area End ***** -->
+
+  <!-- Banner section -->
+  <section>
+    <div class="main-banner">
+      <div class="owl-carousel owl-banner">
+        <div class="item item-1">
+          <div class="header-text" data-aos="fade-right" data-aos-delay="1000">
+            <!-- <span class="category">Dhaka, <em>Bangladesh</em></span> -->
+            <h2>Unite, <em>Engage</em> <br>Enjoy – Discover the Club Ninety Experience</h2>
+          </div>
+        </div>
+        <div class="item item-2">
+          <div class="header-text" data-aos="fade-right" data-aos-delay="1000">
+            <!-- <span class="category">Dhaka, <em>Bangladesh</em></span> -->
+            <h2>Unite, <em>Engage</em> <br>Enjoy – Discover the Club Ninety Experience</h2>
+          </div>
+        </div>
+        <div class="item item-3">
+          <div class="header-text" data-aos="fade-right" data-aos-delay="1000">
+            <!-- <span class="category">Dhaka, <em>Bangladesh</em></span> -->
+            <h2>Unite, <em>Engage</em> <br>Enjoy – Discover the Club Ninety Experience</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section>
+    <div class="about-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="left-image">
+              <img src="assets/images/img/club_ninety.webp" alt="">
+              <div class="image-box__overlay"></div>
+              <a href="#"><img src="assets/images/featured-icon.png" alt="" style="max-width: 60px; padding: 0px;"></a>
+            </div>
+          </div>
+          <div class="col-lg-5" data-aos="fade-down" data-aos-delay="600">
+            <div class="section-heading">
+              <h6>| About Us</h6>
+              <h2>Best Club In Town</h2>
+            </div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fa fa-arrow-right pe-2"></i>About Club Ninety
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body text-justify">
+                    Club Ninety Limited, founded in 2023, is a social and recreational haven designed for the 1990 SSC
+                    graduates of Bangladesh. Our mission is to foster connections, promote well-being, and create
+                    memorable experiences through diverse events and services. We offer state-of-the-art amenities,
+                    including sports facilities, recreational programs, and exclusive venues for members and their
+                    families. With activities ranging from sports to cultural gatherings and support initiatives, Club
+                    Ninety champions the spirit of lifelong camaraderie. Together, we continue to shape a community
+                    grounded in friendship, support, and shared experiences, enriching lives through meaningful social
+                    engagement.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="600">
+            <div class="info-table">
+              <ul>
+                <li>
+                  <img src="assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
+                  <h4>Community<br><span>Entertainment</span></h4>
+                </li>
+                <li>
+                  <img src="assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
+                  <h4>Recreation<br><span>Sports & Health</span></h4>
+                </li>
+                <li>
+                  <img src="assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
+                  <h4>Camaraderie<br><span>Resturant</span></h4>
+                </li>
+                <li>
+                  <img src="assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
+                  <h4>Excellence<br><span>Kidz</span></h4>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Event Section -->
+  <section>
+    <div class="container section">
+      <div class="section-heading" data-aos="fade-right" data-aos-delay="600">
+        <h6>| Upcomming Events</h6>
+        <h2>Find our Events Right Now!</h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" data-aos="fade-up" data-aos-delay="600">
+        <div class="col">
+          <div class="card h-100" style="position: relative">
+            <div class="bottom-right">17/08/2024</div>
+            <!-- <div class="top-right">
+              <div class="tags-list mb-2">
+                <span class="tags-list-town text-uppercase">NEW YORK</span>
+                <span style="background-color: #28a745; text-transform: uppercase; font-weight: 800;">
+                  FREE
+                </span>
+              </div>
+            </div> -->
+            <div class="image-container">
+              <div class="bottom-left">
+                <div class="thumbnail" style="background-color: #ffa5009e">
+                  <div class="thumbnail-date">
+                    <span class="thumbnail-date-day">17</span>
+                    <span class="thumbnail-date-month">ago</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assets/images/gallery/gallery-1.jpg" @load="imageLoaded" class="card-img-top"
+                  alt="Image" /></a>
+              <!-- <a href="#">
+                <img
+                  src="https://images.pexels.com/photos/1230397/pexels-photo-1230397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  @load="imageLoaded" class="card-img-top" alt="Image" /></a> -->
+              <div
+                class="image-overlay text-over text-center d-flex justify-content-center align-items-center text-uppercase">
+                <!-- <div>
+                  Cheers and Grooves in the Heart of New York!
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="position: relative">
+            <div class="bottom-right">20/09/2024</div>
+            <!-- <div class="top-right">
+              <div class="tags-list mb-2">
+                <span class="tags-list-town text-uppercase">ROME</span>
+                <span style="background-color: #28a745; text-transform: uppercase; font-weight: 800;">
+                  FREE
+                </span>
+              </div>
+            </div> -->
+            <div class="image-container">
+              <div class="bottom-left">
+                <div class="thumbnail" style="background-color: #00800070">
+                  <div class="thumbnail-date">
+                    <span class="thumbnail-date-day">20</span>
+                    <span class="thumbnail-date-month">sep</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assets/images/gallery/gallery-2.jpg" @load="imageLoaded" class="card-img-top"
+                  alt="Image" /></a>
+              <div
+                class="image-overlay text-over text-center d-flex justify-content-center align-items-center text-uppercase">
+                <!-- <div>
+                  CSips and Sway: Where Rome Dances the Night Away!
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="position: relative">
+            <div class="bottom-right">31/12/2024</div>
+            <!-- <div class="top-right">
+              <div class="tags-list mb-2">
+                <span class="tags-list-town text-uppercase">PARIS</span>
+                <span style="background-color: #28a745; text-transform: uppercase; font-weight: 800;">
+                  FREE
+                </span>
+              </div>
+            </div> -->
+            <div class="image-container">
+              <div class="bottom-left">
+                <div class="thumbnail" style="background-color: #ff000070">
+                  <div class="thumbnail-date">
+                    <span class="thumbnail-date-day">31</span>
+                    <span class="thumbnail-date-month">dec</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assets/images/gallery/gallery-3.jpg" @load="imageLoaded" class="card-img-top"
+                  alt="Image" /></a>
+              <div
+                class="image-overlay text-over text-center d-flex justify-content-center align-items-center text-uppercase">
+                <!-- <div>
+                  Countdown to Joy: New Year's Eve Bash in Paris!
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="position: relative">
+            <div class="bottom-right">17/03/2024</div>
+            <!-- <div class="top-right">
+              <div class="tags-list mb-2">
+                <span class="tags-list-town text-uppercase">DUBLIN</span>
+                <span style="background-color: #28a745; text-transform: uppercase; font-weight: 800;">
+                  FREE
+                </span>
+              </div>
+            </div> -->
+            <div class="image-container">
+              <div class="bottom-left">
+                <div class="thumbnail" style="background-color: #2196f3ad">
+                  <div class="thumbnail-date">
+                    <span class="thumbnail-date-day">17</span>
+                    <span class="thumbnail-date-month">mar</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assets/images/gallery/gallery-4.jpg" @load="imageLoaded" class="card-img-top"
+                  alt="Image" /></a>
+              <div
+                class="image-overlay text-over text-center d-flex justify-content-center align-items-center text-uppercase">
+                <!-- <div>
+                  Luck and Laughter: Embrace the Spirit of St. Patrick's Day!
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100" style="position: relative">
+            <div class="bottom-right">31/02/2024</div>
+            <!-- <div class="top-right">
+              <div class="tags-list mb-2">
+                <span class="tags-list-town text-uppercase">WORLD</span>
+                <span style="background-color: #28a745; text-transform: uppercase; font-weight: 800;">
+                  FREE
+                </span>
+              </div>
+            </div> -->
+            <div class="image-container">
+              <div class="bottom-left">
+                <div class="thumbnail" style="background-color: #673ab794">
+                  <div class="thumbnail-date">
+                    <span class="thumbnail-date-day">31</span>
+                    <span class="thumbnail-date-month">Feb</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assets/images/gallery/gallery-7.jpg" @load="imageLoaded" class="card-img-top"
+                  alt="Image" /></a>
+              <div
+                class="image-overlay text-over text-center d-flex justify-content-center align-items-center text-uppercase">
+                <!-- <div>
+                  Party Bad!
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" style="position: relative">
+            <div class="bottom-right">31/02/2024</div>
+            <!-- <div class="top-right">
+              <div class="tags-list mb-2">
+                <span class="tags-list-town text-uppercase">WORLD</span>
+                <span style="background-color: #28a745; text-transform: uppercase; font-weight: 800;">
+                  FREE
+                </span>
+              </div>
+            </div> -->
+            <div class="image-container">
+              <div class="bottom-left">
+                <div class="thumbnail" style="background-color: #673ab794">
+                  <div class="thumbnail-date">
+                    <span class="thumbnail-date-day">31</span>
+                    <span class="thumbnail-date-month">Feb</span>
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <img src="assets/images/gallery/gallery-2.jpg" @load="imageLoaded" class="card-img-top"
+                  alt="Image" /></a>
+              <div
+                class="image-overlay text-over text-center d-flex justify-content-center align-items-center text-uppercase">
+                <!-- <div>
+                  Party Bad!
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section>
+    <div class="video section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 offset-lg-4">
+            <div class="section-heading text-center" data-aos="fade-up">
+              <h6>| Video View</h6>
+              <h2>Get Closer View & Different Feeling</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-content" data-aos="zoom-in" data-aos-delay="600">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1">
+            <div class="video-frame">
+              <img src="assets/images/video-frame.jpg" alt="">
+              <a href="https://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="fun-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="20" data-speed="1000"></h2>
+                  <p class="count-text ">Events<br>Finished Now</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="12" data-speed="1000"></h2>
+                  <p class="count-text ">Years<br>Experience</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="24" data-speed="1000"></h2>
+                  <p class="count-text ">Awwards<br>Won 2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Photo Gallery -->
+  <section class="section">
+    <div class="container">
+      <h2 class="text-center mb-4">Photo Gallery</h2>
+      <div class="row" data-aos="fade-up">
+        <!-- Gallery Item 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="assets/images/gallery/gallery-1.jpg" class="card-img-top" alt="Gallery Image 1"
+              data-bs-toggle="modal" data-bs-target="#lightboxModal">
+          </div>
+        </div>
+        <!-- Gallery Item 2 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="assets/images/gallery/gallery-2.jpg" class="card-img-top" alt="Gallery Image 2"
+              data-bs-toggle="modal" data-bs-target="#lightboxModal">
+          </div>
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="assets/images/gallery/gallery-3.jpg" class="card-img-top" alt="Gallery Image 3"
+              data-bs-toggle="modal" data-bs-target="#lightboxModal">
+          </div>
+        </div>
+        <!-- Gallery Item 1 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="assets/images/gallery/gallery-4.jpg" class="card-img-top" alt="Gallery Image 1"
+              data-bs-toggle="modal" data-bs-target="#lightboxModal">
+          </div>
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="assets/images/gallery/gallery-3.jpg" class="card-img-top" alt="Gallery Image 3"
+              data-bs-toggle="modal" data-bs-target="#lightboxModal">
+          </div>
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img src="assets/images/gallery/gallery-7.jpg" class="card-img-top" alt="Gallery Image 3"
+              data-bs-toggle="modal" data-bs-target="#lightboxModal">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox Modal with Slider -->
+    <!-- Modal -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Carousel inside Modal -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/images/gallery/gallery-1.jpg" class="d-block w-100" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/gallery/gallery-2.jpg" class="d-block w-100" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/gallery/gallery-3.jpg" class="d-block w-100" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/gallery/gallery-4.jpg" class="d-block w-100" alt="Image 3">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/images/gallery/gallery-7.jpg" class="d-block w-100" alt="Image 3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Best offers  -->
+  <!-- <div class="best-deal section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="section-heading" data-aos="fade-right" data-aos-delay="1000">
+            <h6>| Best Offers</h6>
+            <h2>Find Your Best Offers Right Now!</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="tabs-content">
+            <div class="row">
+              <div class="nav-wrapper" data-aos="fade-left" data-aos-delay="1000">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab"
+                      data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment"
+                      aria-selected="true">Restaurant</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Club-tab" data-bs-toggle="tab" data-bs-target="#Club" type="button"
+                      role="tab" aria-controls="Club" aria-selected="false">Club House</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse"
+                      type="button" role="tab" aria-controls="penthouse" aria-selected="false">Movie Center</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="appartment" role="tabpanel" aria-labelledby="appartment-tab">
+                  <div class="row" data-aos="fade-up" data-aos-delay="800">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Foot Items <span>120</span></li>
+                          <li>Movie Center <span>6</span></li>
+                          <li>Number of rooms <span>20</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="assets/images/deal-01.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Restaurant</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
+                        labore et dolore magna aliqua quised ipsum suspendisse.
+                        <br><br>When you need free CSS templates, you can simply type TemplateMo in any search engine
+                        website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.
+                      </p>
+                      <div class="icon-button">
+                        <a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="Club" role="tabpanel" aria-labelledby="Club-tab">
+                  <div class="row" data-aos="fade-up" data-aos-delay="800">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Foot Items <span>120</span></li>
+                          <li>Movie Center <span>6</span></li>
+                          <li>Number of rooms <span>20</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="assets/images/deal-02.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Detail Info About Club</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
+                        labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee.
+                        JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo
+                        after messenger poutine next level humblebrag swag franzen.</p>
+                      <div class="icon-button">
+                        <a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="penthouse" role="tabpanel" aria-labelledby="penthouse-tab">
+                  <div class="row" data-aos="fade-up" data-aos-delay="800">
+                    <div class="col-lg-3">
+                      <div class="info-table">
+                        <ul>
+                          <li>Foot Items <span>120</span></li>
+                          <li>Movie Center <span>6</span></li>
+                          <li>Number of rooms <span>20</span></li>
+                          <li>Parking Available <span>Yes</span></li>
+                          <li>Payment Process <span>Bank</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <img src="assets/images/deal-03.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3">
+                      <h4>Extra Info About Movie Center</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut
+                        labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee.
+                        JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo
+                        after messenger poutine next level humblebrag swag franzen.</p>
+                      <div class="icon-button">
+                        <a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="news-section section">
+    <div class="container">
+      <div class="row">
+        <div class="">
+          <div class="section-heading text-center">
+            <h4>| NEWS & EVENTS</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="item" data-aos="fade-up" data-aos-delay="800">
+            <a href="#"><img src="assets/images/img/img-1.jpg" alt=""></a>
+            <span class="category">Luxury Club</span>
+            <h4><a href="#">Clubninety Reunion</a></h4>
+            <ul>
+              <li>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nulla eaque quam cupiditate placeat
+                  ad ipsa iure est beatae molestias?</p>
+              </li>
+            </ul>
+            <div class="main-button">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item" data-aos="fade-up" data-aos-delay="800">
+            <a href="#"><img src="assets/images/img/img-2.jpg" alt=""></a>
+            <span class="category">Luxury Club</span>
+            <h4><a href="#">Clubninety Reunion</a></h4>
+            <ul>
+              <li>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nulla eaque quam cupiditate placeat
+                  ad ipsa iure est beatae molestias?</p>
+              </li>
+            </ul>
+            <div class="main-button">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item" data-aos="fade-up" data-aos-delay="800">
+            <a href="#"><img src="assets/images/img/img-3.jpg" alt=""></a>
+            <span class="category">Luxury Club</span>
+            <h4><a href="#">Clubninety Reunion</a></h4>
+            <ul>
+              <li>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nulla eaque quam cupiditate placeat
+                  ad ipsa iure est beatae molestias?</p>
+              </li>
+            </ul>
+            <div class="main-button">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item" data-aos="fade-down" data-aos-delay="800">
+            <a href="#"><img src="assets/images/img/img-4.jpg" alt=""></a>
+            <span class="category">Luxury Club</span>
+            <h4><a href="#">Clubninety Reunion</a></h4>
+            <ul>
+              <li>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nulla eaque quam cupiditate placeat
+                  ad ipsa iure est beatae molestias?</p>
+              </li>
+            </ul>
+            <div class="main-button">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item" data-aos="fade-down" data-aos-delay="800">
+            <a href="#"><img src="assets/images/img/img-7.jpg" alt=""></a>
+            <span class="category">Luxury Club</span>
+            <h4><a href="#">Clubninety Reunion</a></h4>
+            <ul>
+              <li>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nulla eaque quam cupiditate placeat
+                  ad ipsa iure est beatae molestias?</p>
+              </li>
+            </ul>
+            <div class="main-button">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item" data-aos="fade-down" data-aos-delay="800">
+            <a href="#"><img src="assets/images/img/img-9.jpg" alt=""></a>
+            <span class="category">Luxury Club</span>
+            <h4><a href="#">Clubninety Reunion</a></h4>
+            <ul>
+              <li>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nulla eaque quam cupiditate placeat
+                  ad ipsa iure est beatae molestias?</p>
+              </li>
+            </ul>
+            <div class="main-button">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>| Contact Us</h6>
+            <h2>Get In Touch With Our Agents</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div id="map">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14594.403736965314!2d90.34444926423724!3d23.86830053010946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c3dd7a3a4cf3%3A0x3d87f276e612d0c2!2sSector-16%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1730483648054!5m2!1sen!2sbd"
+            width="100%"
+            height="500px"
+            frameborder="0"
+            style="
+              border: 0;
+              border-radius: 10px;
+              box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+            "
+            allowfullscreen=""
+          ></iframe>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="item phone">
+                <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
+                <h6>+880-1711-117201<br><span>Phone Number</span></h6>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="item email">
+                <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
+                <h6>info@clubninety.com.bd<br><span>Official Email</span></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <form id="contact-form" action="" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="name">Full Name</label>
+                  <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="email">Email Address</label>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..."
+                    required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="subject">Subject</label>
+                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-8 py-5">
+        <p>Copyright © 2024 Club Ninety Ltd. All rights reserved.
+
+          Design: <a rel="nofollow" href="https://techcloudltd.com/" target="_blank">Tech Cloud Ltd.</a></p>
+      </div>
+    </div>
+  </footer>
+  
+  <button style="background-color: #f9a624;"
+    class="btn btn-sm rounded-circle position-fixed bottom-0 end-0 translate-middle d-none" onclick="scrollToTop()"
+    id="back-to-up">
+    <i class="fa fa-arrow-up text-white fs-4 p-1" aria-hidden="true"></i>
+  </button>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+
+    window.onscroll = () => {
+      toggleTopButton();
+    }
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function toggleTopButton() {
+      if (document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20) {
+        document.getElementById('back-to-up').classList.remove('d-none');
+      } else {
+        document.getElementById('back-to-up').classList.add('d-none');
+      }
+    }
+  </script>
+
+</body>
+
+</html>
